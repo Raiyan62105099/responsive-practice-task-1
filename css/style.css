@@ -6,12 +6,14 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    
+
 }
-body{
+
+body {
     width: 1250px;
     border: 2px solid peru;
 }
+
 /* ===================================================common css================================================= */
 
 .nav-container {
@@ -44,7 +46,6 @@ body{
 
 .item:hover {
     background-color: peru;
-
     transition: 0.5s ease-out;
 }
 
@@ -105,42 +106,47 @@ body{
     column-gap: 1em;
 }
 
+@media screen and (max-width:576px) {
+    .book {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        
+    }
+
+}
+
 .book {
 
     text-align: center;
     padding: 20px 10px;
     border: 2px solid red;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
-@media screen and (max-width: 576px) {
- .book img {
-    grid-template-columns: repeat(1,1fr);
-    width: 100%;
- }
-    
-}
-.book h2 p{
+
+.book h2 p {
     font-size: 10em;
-    a
-    
+
+
 }
-.book img{
+
+.book img {
     width: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     align-items: center;
 }
 
-.book button{
-    margin: 10px auto;
-    padding: 8px 15px;
+.book button {
+    margin: 1rem auto 0.5rem;
+    padding: 0.6rem 1.8rem;
     align-items: baseline;
     background-color: #af9977;
     color: white;
     outline: 0;
     border: 0;
-    border-radius: 20px;
+    border-radius: 1.5rem;
 }
-.book button:hover{
+
+.book button:hover {
     cursor: pointer;
     background-color: peru;
     transition: 0.5s ease-out
