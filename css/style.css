@@ -127,3 +127,18 @@ body{
     border-radius: 20px;
     align-items: center;
 }
+.book button{
+    margin: 10px auto;
+    padding: 8px 15px;
+    align-items: baseline;
+    background-color: #af9977;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+}
+.book button:hover{
+    cursor: pointer;
+    background-color: peru;
+    transition: 0.5s ease-out
+}
