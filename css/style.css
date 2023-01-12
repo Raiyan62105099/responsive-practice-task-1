@@ -120,7 +120,7 @@ body {
     text-align: center;
     padding: 20px 10px;
     border: 2px solid red;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 }
 
 .book h2 p {
@@ -131,7 +131,7 @@ body {
 
 .book img {
     width: 100%;
-    /* border-radius: 20px; */
+    border-radius: 20px;
     align-items: center;
 }
 
