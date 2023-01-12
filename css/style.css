@@ -105,12 +105,6 @@ body{
     column-gap: 1em;
 }
 
-@media screen and (max-width: 576px){
-    .main{
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-    }
-}
 .book {
 
     text-align: center;
@@ -118,15 +112,24 @@ body{
     border: 2px solid red;
     border-radius: 20px;
 }
+@media screen and (max-width: 576px) {
+ .book img {
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+ }
+    
+}
 .book h2 p{
     font-size: 10em;
-    align-items: center;
+    a
+    
 }
 .book img{
     width: 100%;
     border-radius: 20px;
     align-items: center;
 }
+
 .book button{
     margin: 10px auto;
     padding: 8px 15px;
